@@ -272,7 +272,12 @@ console.log(eatFood(firstName, lastName, food));
  * Create a function that will take in a parameter named `inches`. This function will convert inches to centimeters(cm).
  * Console.log your result. 
 */
+var shoe = 25;
+function shoeSize(inches){
+	return inches*2.54+ " centimeters";
 
+}
+console.log(shoeSize(shoe));
 
 
 /*
@@ -284,8 +289,11 @@ console.log(eatFood(firstName, lastName, food));
  * Example input: "believe you can and you're halfway there."
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
- 
-
+var res = "hi how are you";
+function allCaps(str){
+	return str.toUpperCase();
+} 
+console.log(allCaps(res));
 
 /*
  * #16
